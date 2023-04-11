@@ -20,7 +20,7 @@ function displayProducts(products) {
   // separates elements from the array, and add them to the chosen id
   for (product of products) {
     section.innerHTML += `
-            <a href="./product.html?id=${product._id}">
+            <a href="./html/product.html?id=${product._id}">
                 <article>
                     <img src="${product.imageUrl}"alt="${product.altTxt}"><h3 class="productName">${product.name}</h3>
                     <p class="productDescription">${product.description}</p>
